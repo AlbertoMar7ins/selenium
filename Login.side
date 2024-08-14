@@ -1,0 +1,247 @@
+{
+  "id": "134297c2-d699-4a97-90d1-473b02bd8c1c",
+  "version": "2.0",
+  "name": "Login",
+  "url": "",
+  "tests": [{
+    "id": "9e9a3407-36cb-4e5f-bfab-592bc3b7f373",
+    "name": "Login",
+    "commands": [{
+      "id": "048967a5-9942-4039-9944-7a44635350fb",
+      "comment": "Url RDP",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c29895a6-60c4-4624-97fa-bce4bd5323d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1008",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b71f707d-ec72-4b0d-9196-5f4597ef93fa",
+      "comment": "Caixa de Email",
+      "command": "click",
+      "target": " xpath=//input",
+      "targets": [
+        ["id=zBXMt", "id"],
+        ["css=#zBXMt", "css:finder"],
+        ["xpath=//input[@id='zBXMt']", "xpath:attributes"],
+        ["xpath=//td[@id='zBXMs']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5417c616-8b08-4cdf-b4b8-150c5e5d8ffe",
+      "comment": "Digitar Email",
+      "command": "type",
+      "target": " xpath=//input",
+      "targets": [
+        ["id=zBXMt", "id"],
+        ["css=#zBXMt", "css:finder"],
+        ["xpath=//input[@id='zBXMt']", "xpath:attributes"],
+        ["xpath=//td[@id='zBXMs']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium@gmail.com"
+    }, {
+      "id": "79ac5665-1b6f-47d1-9f6a-6ddec238abe9",
+      "comment": "Caixa de senha",
+      "command": "click",
+      "target": "xpath=//tr[3]/td[2]/input",
+      "targets": [
+        ["id=zBXMx", "id"],
+        ["css=#zBXMx", "css:finder"],
+        ["xpath=//input[@id='zBXMx']", "xpath:attributes"],
+        ["xpath=//td[@id='zBXMw']/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f22982c-2685-4a79-87d7-fb6a0f1c1ec2",
+      "comment": "Digitar Senha",
+      "command": "type",
+      "target": "xpath=//tr[3]/td[2]/input",
+      "targets": [
+        ["id=zBXMx", "id"],
+        ["css=#zBXMx", "css:finder"],
+        ["xpath=//input[@id='zBXMx']", "xpath:attributes"],
+        ["xpath=//td[@id='zBXMw']/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "d1ca13f6-2457-4697-95a6-fd4570346062",
+      "comment": "OK",
+      "command": "click",
+      "target": "xpath=//button",
+      "targets": [
+        ["id=zBXMh0", "id"],
+        ["css=#zBXMh0", "css:finder"],
+        ["xpath=//button[@id='zBXMh0']", "xpath:attributes"],
+        ["xpath=//div[@id='zBXMh0-chdex']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7843efd-2f6b-45c5-9445-8eb0f3e060b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=_z_4",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2e95c3d-f92c-4c2e-bd6c-68d93542dce8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div/button",
+      "targets": [
+        ["id=nVJI12", "id"],
+        ["css=#nVJI12", "css:finder"],
+        ["xpath=//button[@id='nVJI12']", "xpath:attributes"],
+        ["xpath=//div[@id='nVJI12-chdex']/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,' OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f8aac3a-e153-4617-a9f9-067ad9891be1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[3]/td[2]/input",
+      "targets": [
+        ["id=_z_4", "id"],
+        ["css=#\\_z_4", "css:finder"],
+        ["xpath=//button[@id='_z_4']", "xpath:attributes"],
+        ["xpath=//div[@id='_z_4-chdex']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2f944a9-36ec-490f-8817-b3124b81b7a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=_z_11",
+      "targets": [
+        ["id=_z_11", "id"],
+        ["css=#\\_z_11", "css:finder"],
+        ["xpath=//button[@id='_z_11']", "xpath:attributes"],
+        ["xpath=//div[@id='_z_11-chdex']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e9f6cec-cc23-46dd-810c-d1caf6eee25f",
+      "comment": "Digitar Senha",
+      "command": "type",
+      "target": "xpath=//tr[3]/td[2]/input",
+      "targets": [
+        ["id=zBXMx", "id"],
+        ["css=#zBXMx", "css:finder"],
+        ["xpath=//input[@id='zBXMx']", "xpath:attributes"],
+        ["xpath=//td[@id='zBXMw']/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "8f6df4cf-fd43-4620-96f7-64aedbc7248e",
+      "comment": "OK",
+      "command": "click",
+      "target": "xpath=//button",
+      "targets": [
+        ["id=zBXMh0", "id"],
+        ["css=#zBXMh0", "css:finder"],
+        ["xpath=//button[@id='zBXMh0']", "xpath:attributes"],
+        ["xpath=//div[@id='zBXMh0-chdex']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e98963c-95b8-4e21-b662-680779a36ea4",
+      "comment": "",
+      "command": "pause",
+      "target": "10",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e28d32a6-3167-402d-b423-024b9bff1e45",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=uBeKpu1-real", "id"],
+        ["css=#uBeKpu1-real", "css:finder"],
+        ["xpath=//input[@id='uBeKpu1-real']", "xpath:attributes"],
+        ["xpath=//span[@id='uBeKpu1']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce760a9a-bea8-402f-bafc-f4dca1f998df",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=uBeKpu1-real", "id"],
+        ["css=#uBeKpu1-real", "css:finder"],
+        ["xpath=//input[@id='uBeKpu1-real']", "xpath:attributes"],
+        ["xpath=//span[@id='uBeKpu1']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ordem de venda"
+    }, {
+      "id": "90855d7e-1094-406e-a52c-6dec9b48bda7",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "id=p09Tpu1-real",
+      "targets": [
+        ["id=p09Tpu1-real", "id"],
+        ["css=#p09Tpu1-real", "css:finder"],
+        ["xpath=//input[@id='p09Tpu1-real']", "xpath:attributes"],
+        ["xpath=//span[@id='p09Tpu1']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1902bbcc-3c22-4702-9bf0-e38f3484fb23",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=p09T3a2-cave",
+      "targets": [
+        ["id=p09Tpu1-real", "id"],
+        ["css=#p09Tpu1-real", "css:finder"],
+        ["xpath=//input[@id='p09Tpu1-real']", "xpath:attributes"],
+        ["xpath=//span[@id='p09Tpu1']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bb09c58-afc9-41a5-8c46-eb1edd58b605",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=uBeKai2",
+      "targets": [
+        ["id=uBeKai2", "id"],
+        ["css=#uBeKai2", "css:finder"],
+        ["xpath=//span[@id='uBeKai2']", "xpath:attributes"],
+        ["xpath=//div[@id='uBeK9i2-cave']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/table/tbody/tr[2]/td/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6eef3eba-cd3d-484e-bd9f-2f6c56224fd1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9e9a3407-36cb-4e5f-bfab-592bc3b7f373"]
+  }],
+  "urls": [""],
+  "plugins": []
+}
